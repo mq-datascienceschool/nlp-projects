@@ -24,6 +24,7 @@ def get_soundex(token):
         
     return soundex
 
+# checking for examples
 print(get_soundex('Bombay'))
 print(get_soundex('Bambai'))
 
