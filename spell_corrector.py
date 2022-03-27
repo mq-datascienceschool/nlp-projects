@@ -92,4 +92,4 @@ def spell_check(word):
 # print(prob("money"))
 # print(prob("monkey"))
 
-print(spell_check("monney"))
+# print(spell_check("monney"))
