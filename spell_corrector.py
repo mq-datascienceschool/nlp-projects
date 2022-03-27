@@ -7,7 +7,7 @@ def words(document):
     return re.findall(r'\w+', document.lower())
 
 # create a frequency table of all the words of the document
-all_words = Counter(words(open(r'C:\Users\raiso\Desktop\NLP Projects\NLP-1\nlp-projects\sedd_doc.txt').read()))
+all_words = Counter(words(open(r'seed_doc.txt').read()))
 # check frequency of a random word, say, 'chair'
 print(all_words['chair'])
 # look at top 10 frequent words
